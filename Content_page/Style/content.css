@@ -1,9 +1,9 @@
+/* Removing the previous settings on the body */
 html,body{
     position: relative;
     margin: 0;
     padding: 0;
 }
-
 
 #container{
     background-color: rgba(255, 255, 255, 0.842);
@@ -15,6 +15,7 @@ html,body{
     box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(255, 255, 255, 0.22) 0px 15px 12px;
 }
 
+/* Blur the background image */
 &::before{
     z-index: -1;
     content: '';
